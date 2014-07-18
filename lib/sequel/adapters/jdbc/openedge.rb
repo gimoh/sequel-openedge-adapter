@@ -1,9 +1,10 @@
+Sequel::JDBC.load_driver('com.ddtek.jdbc.openedge.OpenEdgeDriver')
 Sequel.require 'adapters/shared/openedge'
 Sequel.require 'adapters/jdbc/transactions'
 
 module Sequel
   module JDBC
-    # Database and Dataset instance methods for OpenEdge v9 specific
+    # Database and Dataset instance methods for OpenEdge v10+ specific
     # support via JDBC.
     module OpenEdge
       # Database instance methods for OpenEdge databases accessed via JDBC.

@@ -9,7 +9,7 @@ from client networking installation.
 ## Installation
 
 Note that this currently requires sequel master branch, it relies on a recent
-improvement (jeremyevans/sequel@673bda5ec6a79c189dc37c03d191211e1701cc47) of
+improvement ( jeremyevans/sequel@673bda5ec6a79c189dc37c03d191211e1701cc47 ) of
 autoloading of external adapters.
 
     gem install sequel-openedge-adapter

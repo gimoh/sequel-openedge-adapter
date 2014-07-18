@@ -1,5 +1,5 @@
 Sequel::JDBC.load_driver('com.ddtek.jdbc.openedge.OpenEdgeDriver')
-Sequel.require 'adapters/shared/openedge'
+require 'sequel/adapters/shared/openedge'
 Sequel.require 'adapters/jdbc/transactions'
 
 module Sequel

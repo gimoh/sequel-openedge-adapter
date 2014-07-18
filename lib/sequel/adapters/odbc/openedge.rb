@@ -1,4 +1,4 @@
-Sequel.require 'adapters/shared/openedge'
+require 'sequel/adapters/shared/openedge'
 
 # Register the driver.
 Sequel.synchronize do

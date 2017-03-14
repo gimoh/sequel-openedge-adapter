@@ -1,7 +1,6 @@
 module Sequel
   module OpenEdge
     module DatabaseMethods
-      extend Sequel::Database::ResetIdentifierMangling
 
       # OpenEdge uses the :openedge database type.
       def database_type
